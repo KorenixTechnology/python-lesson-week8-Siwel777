@@ -18,31 +18,31 @@ def hw_week8():
             break
         print(move_is(cher) + ' versus...\n' + move_is(npc))
         if cher == npc:
-            print('It is a tie!\n')
+            print('It is a tie!')
             t = t + 1
             continue
         elif cher == 'p' and npc == 'r':
-            print('You win!\n')
+            print('You win!')
             w = w + 1
             continue
         elif cher == 'p' and npc == 's':
-            print('You losses!\n')
+            print('You losses!')
             l = l + 1
             continue
         elif cher == 's' and npc == 'p':
-            print('You win!\n')
+            print('You win!')
             w = w + 1
             continue
         elif cher == 's' and npc == 'r':
-            print('You losses!\n')
+            print('You losses!')
             l = l + 1
             continue
         elif cher == 'r' and npc == 's':
-            print('You win!\n')
+            print('You win!')
             w = w + 1
             continue
         elif cher == 'r' and npc == 'p':
-            print('You losses!\n')
+            print('You losses!')
             l = l + 1
             continue
 
