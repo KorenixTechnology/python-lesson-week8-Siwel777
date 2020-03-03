@@ -14,7 +14,7 @@ def hw_week8():
             print('Error!!!\n')
             continue
         elif cher == 'q':
-#            print('Bye! Bye!')
+            print('Bye! Bye!')
             break
         print(move_is(cher) + ' versus...\n' + move_is(npc))
         if cher == npc:
@@ -26,7 +26,7 @@ def hw_week8():
             w = w + 1
             continue
         elif cher == 'p' and npc == 's':
-            print('You losses!')
+            print('You lose!')
             l = l + 1
             continue
         elif cher == 's' and npc == 'p':
@@ -34,7 +34,7 @@ def hw_week8():
             w = w + 1
             continue
         elif cher == 's' and npc == 'r':
-            print('You losses!')
+            print('You lose!')
             l = l + 1
             continue
         elif cher == 'r' and npc == 's':
@@ -42,7 +42,7 @@ def hw_week8():
             w = w + 1
             continue
         elif cher == 'r' and npc == 'p':
-            print('You losses!')
+            print('You lose!')
             l = l + 1
             continue
 
