@@ -14,7 +14,7 @@ def hw_week8():
             print('Error!!!\n')
             continue
         elif cher == 'q':
-            print('Bye! Bye!')
+#            print('Bye! Bye!')
             break
         print(move_is(cher) + ' versus...\n' + move_is(npc))
         if cher == npc:
